@@ -75,7 +75,7 @@ long long listBigDirs(path  inPath, vector<string> &dirs, long long reqSize, int
 			if( subDirSize >= reqSize )
 			{
 				string indent(level * 2, ' ');
-				string sFileName = indent + fileRes.filename();
+				string sFileName = indent + fileRes.filename().generic_string();
 				string sSize = " - " + to_string(subDirSize >> 20) + " MB";
 				cout << setw(30 - level*2) << left << sFileName << sSize << endl;
 				

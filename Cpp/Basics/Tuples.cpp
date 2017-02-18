@@ -29,7 +29,7 @@ void TestTupleReferences()
 	float b = 3.14F;
 	string c = "Pero";
 	
-	tuple<int&, float&, string&> t1(a, b, c);
+	tuple<int&, float&, string&> t1{a, b, c };
 
 	a = 20;
 

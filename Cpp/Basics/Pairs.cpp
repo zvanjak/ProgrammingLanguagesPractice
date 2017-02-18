@@ -28,7 +28,7 @@ void TestPairMoveSemantics()
 	char *pch = &(a[0]);
 
 	cout << "a = " << a << ", b = " << b << endl;
-	cout << "&a = " << (int *) pch << endl;
+	cout << "&a = " << reinterpret_cast<int *>(pch) << endl;
 
 	auto p = make_pair(std::move(a), std::move(b));
 

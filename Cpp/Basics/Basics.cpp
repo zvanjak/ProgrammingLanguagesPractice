@@ -81,7 +81,8 @@ void TestingMoving()
 	MovableVector a(1000);
 	MovableVector b(1000);
 
-	a = std::move(b);
+	// this is error - http://stackoverflow.com/questions/31264984/c-compiler-error-c2280-attempting-to-reference-a-deleted-function-in-visual
+	//a = std::move(b);
 }
 
 enum class Color { red, green, blue };
