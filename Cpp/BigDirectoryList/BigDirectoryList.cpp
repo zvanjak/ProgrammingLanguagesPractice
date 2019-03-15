@@ -8,6 +8,8 @@
 #include <iomanip>
 #include <vector>
 
+#define _SILENCE_TR2_SYS_NAMESPACE_DEPRECATION_WARNING
+
 using namespace std;
 using namespace std::tr2::sys;
 

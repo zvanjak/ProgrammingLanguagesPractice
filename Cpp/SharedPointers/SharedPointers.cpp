@@ -10,8 +10,8 @@ int _tmain(int argc, _TCHAR* argv[])
 	// TestUnique();
 
 	//TestSharedObjectInstance();
-	//TestSharedInContainer();
-	TestWeakPtr3();
+	TestSharedInContainer();
+	//TestWeakPtr3();
 
 	return 0;
 }

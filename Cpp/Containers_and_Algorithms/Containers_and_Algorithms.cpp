@@ -22,7 +22,7 @@ ostream& operator<<(ostream& os, const Entry& e)
 }
 
 istream& operator>>(istream& is, Entry& e)
-//read { "name" , number } pair. Note: for matted with { " " , and }
+//read { "name" , number } pair. Note: formatted with { " " , and }
 {
 	char c, c2;
 	if (is>>c && c=='{' && is>>c2 && c2=='"') {		//start with a { "
