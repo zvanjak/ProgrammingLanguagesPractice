@@ -38,9 +38,21 @@ the stream(unless we hit end of file while skipping the rest of the line).The pa
 
 using namespace std;
 
+int _tmain(int argc, _TCHAR* argv[])
+{
+	std::ofstream  file("C:\\Temp\\polygon.txt", std::ofstream::app);
+
+	file << "Prdo";
+
+	file.close();
+
+	
+}
+
+
 bool get_int(istream&, bool&, int&);
 
-int _tmain(int argc, _TCHAR* argv[])
+int test_get_int(int argc, _TCHAR* argv[])
 {
 	int datum;
 	bool value_is_good = false;

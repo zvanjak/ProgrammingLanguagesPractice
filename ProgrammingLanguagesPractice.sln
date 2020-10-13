@@ -1,7 +1,7 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio 14
-VisualStudioVersion = 14.0.25420.1
+# Visual Studio 15
+VisualStudioVersion = 15.0.28307.852
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Cpp", "Cpp", "{14F62F1C-C2E6-4C79-A10C-1571821CEB2E}"
 EndProject
@@ -45,6 +45,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TestInheritance", "CSharp\T
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "TestingMoveSemanticsWithMatrixComputation", "Cpp\TestingMoveSemanticsWithMatrixComputation\TestingMoveSemanticsWithMatrixComputation.vcxproj", "{EBD29122-8724-482A-89D1-74FD6AF590B5}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "LoadingCatchTestResults", "Cpp\LoadingCatchTestResults\LoadingCatchTestResults.vcxproj", "{36E70841-9488-46F3-B9D9-CC86FBC1656B}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -74,7 +76,6 @@ Global
 		{8B04577F-B098-4B28-925C-BCF2C8BD051E}.Debug|Any CPU.ActiveCfg = Debug|Win32
 		{8B04577F-B098-4B28-925C-BCF2C8BD051E}.Debug|x64.ActiveCfg = Debug|Win32
 		{8B04577F-B098-4B28-925C-BCF2C8BD051E}.Debug|x86.ActiveCfg = Debug|Win32
-		{8B04577F-B098-4B28-925C-BCF2C8BD051E}.Debug|x86.Build.0 = Debug|Win32
 		{8B04577F-B098-4B28-925C-BCF2C8BD051E}.Release|Any CPU.ActiveCfg = Release|Win32
 		{8B04577F-B098-4B28-925C-BCF2C8BD051E}.Release|x64.ActiveCfg = Release|Win32
 		{8B04577F-B098-4B28-925C-BCF2C8BD051E}.Release|x86.ActiveCfg = Release|Win32
@@ -138,7 +139,6 @@ Global
 		{E5F09A4D-1171-4682-AA24-606CB0C21AE4}.Debug|Any CPU.ActiveCfg = Debug|Win32
 		{E5F09A4D-1171-4682-AA24-606CB0C21AE4}.Debug|x64.ActiveCfg = Debug|Win32
 		{E5F09A4D-1171-4682-AA24-606CB0C21AE4}.Debug|x86.ActiveCfg = Debug|Win32
-		{E5F09A4D-1171-4682-AA24-606CB0C21AE4}.Debug|x86.Build.0 = Debug|Win32
 		{E5F09A4D-1171-4682-AA24-606CB0C21AE4}.Release|Any CPU.ActiveCfg = Release|Win32
 		{E5F09A4D-1171-4682-AA24-606CB0C21AE4}.Release|x64.ActiveCfg = Release|Win32
 		{E5F09A4D-1171-4682-AA24-606CB0C21AE4}.Release|x86.ActiveCfg = Release|Win32
@@ -209,6 +209,16 @@ Global
 		{EBD29122-8724-482A-89D1-74FD6AF590B5}.Release|x64.Build.0 = Release|x64
 		{EBD29122-8724-482A-89D1-74FD6AF590B5}.Release|x86.ActiveCfg = Release|Win32
 		{EBD29122-8724-482A-89D1-74FD6AF590B5}.Release|x86.Build.0 = Release|Win32
+		{36E70841-9488-46F3-B9D9-CC86FBC1656B}.Debug|Any CPU.ActiveCfg = Debug|Win32
+		{36E70841-9488-46F3-B9D9-CC86FBC1656B}.Debug|x64.ActiveCfg = Debug|x64
+		{36E70841-9488-46F3-B9D9-CC86FBC1656B}.Debug|x64.Build.0 = Debug|x64
+		{36E70841-9488-46F3-B9D9-CC86FBC1656B}.Debug|x86.ActiveCfg = Debug|Win32
+		{36E70841-9488-46F3-B9D9-CC86FBC1656B}.Debug|x86.Build.0 = Debug|Win32
+		{36E70841-9488-46F3-B9D9-CC86FBC1656B}.Release|Any CPU.ActiveCfg = Release|Win32
+		{36E70841-9488-46F3-B9D9-CC86FBC1656B}.Release|x64.ActiveCfg = Release|x64
+		{36E70841-9488-46F3-B9D9-CC86FBC1656B}.Release|x64.Build.0 = Release|x64
+		{36E70841-9488-46F3-B9D9-CC86FBC1656B}.Release|x86.ActiveCfg = Release|Win32
+		{36E70841-9488-46F3-B9D9-CC86FBC1656B}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -231,5 +241,9 @@ Global
 		{B1647F19-F0E0-4D58-8AB7-B5A4B25A43EC} = {82420225-CDDB-4426-916F-44A23B20B8A0}
 		{1ABE78FA-BF9F-4A87-9174-4CF75CA889F5} = {82420225-CDDB-4426-916F-44A23B20B8A0}
 		{EBD29122-8724-482A-89D1-74FD6AF590B5} = {14F62F1C-C2E6-4C79-A10C-1571821CEB2E}
+		{36E70841-9488-46F3-B9D9-CC86FBC1656B} = {14F62F1C-C2E6-4C79-A10C-1571821CEB2E}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {F1E79753-CD2B-4880-BAE4-9F9165F45202}
 	EndGlobalSection
 EndGlobal
